@@ -106,9 +106,14 @@ df.to_csv('test_output.txt', index=False, sep='\t')
 print("Fichiers créés : test_output.nc, test_output.json, test_output.csv, test_output.txt")
 ```
 
-### Exécution :
+### Exécution sur MACOS:
 ```bash
 python3 test.py
+```
+
+### Exécution sur WINDOWS:
+```bash
+python test.py
 ```
 
 ## 5. Paramètres disponibles
