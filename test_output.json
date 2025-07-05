@@ -1,0 +1,136 @@
+{
+  "coords": {
+    "number": {
+      "dims": [],
+      "attrs": {
+        "long_name": "ensemble member numerical id",
+        "units": "1",
+        "standard_name": "realization"
+      },
+      "data": 0
+    },
+    "valid_time": {
+      "dims": [
+        "valid_time"
+      ],
+      "attrs": {
+        "long_name": "time",
+        "standard_name": "time"
+      },
+      "data": [
+        "2024-01-01 12:00:00"
+      ]
+    },
+    "latitude": {
+      "dims": [
+        "latitude"
+      ],
+      "attrs": {
+        "units": "degrees_north",
+        "standard_name": "latitude",
+        "long_name": "latitude",
+        "stored_direction": "decreasing"
+      },
+      "data": [
+        11.69,
+        11.44,
+        11.19
+      ]
+    },
+    "longitude": {
+      "dims": [
+        "longitude"
+      ],
+      "attrs": {
+        "units": "degrees_east",
+        "standard_name": "longitude",
+        "long_name": "longitude"
+      },
+      "data": [
+        -0.8,
+        -0.55,
+        -0.3
+      ]
+    },
+    "expver": {
+      "dims": [],
+      "attrs": {},
+      "data": "0001"
+    }
+  },
+  "attrs": {
+    "GRIB_centre": "ecmf",
+    "GRIB_centreDescription": "European Centre for Medium-Range Weather Forecasts",
+    "GRIB_subCentre": 0,
+    "Conventions": "CF-1.7",
+    "institution": "European Centre for Medium-Range Weather Forecasts",
+    "history": "2025-07-04T23:46 GRIB to CDM+CF via cfgrib-0.9.15.0/ecCodes-2.41.0 with {\"source\": \"tmpp0q2m4a0/data.grib\", \"filter_by_keys\": {\"stream\": [\"oper\"], \"stepType\": [\"instant\"]}, \"encode_cf\": [\"parameter\", \"time\", \"geography\", \"vertical\"]}"
+  },
+  "dims": {
+    "valid_time": 1,
+    "latitude": 3,
+    "longitude": 3
+  },
+  "data_vars": {
+    "t2m": {
+      "dims": [
+        "valid_time",
+        "latitude",
+        "longitude"
+      ],
+      "attrs": {
+        "GRIB_paramId": 167,
+        "GRIB_dataType": "an",
+        "GRIB_numberOfPoints": 9,
+        "GRIB_typeOfLevel": "surface",
+        "GRIB_stepUnits": 1,
+        "GRIB_stepType": "instant",
+        "GRIB_gridType": "regular_ll",
+        "GRIB_uvRelativeToGrid": 0,
+        "GRIB_NV": 0,
+        "GRIB_Nx": 3,
+        "GRIB_Ny": 3,
+        "GRIB_cfName": "unknown",
+        "GRIB_cfVarName": "t2m",
+        "GRIB_gridDefinitionDescription": "Latitude/Longitude Grid",
+        "GRIB_iDirectionIncrementInDegrees": 0.25,
+        "GRIB_iScansNegatively": 0,
+        "GRIB_jDirectionIncrementInDegrees": 0.25,
+        "GRIB_jPointsAreConsecutive": 0,
+        "GRIB_jScansPositively": 0,
+        "GRIB_latitudeOfFirstGridPointInDegrees": 11.69,
+        "GRIB_latitudeOfLastGridPointInDegrees": 11.19,
+        "GRIB_longitudeOfFirstGridPointInDegrees": -0.8,
+        "GRIB_longitudeOfLastGridPointInDegrees": -0.3,
+        "GRIB_missingValue": 3.4028234663852886e+38,
+        "GRIB_name": "2 metre temperature",
+        "GRIB_shortName": "2t",
+        "GRIB_totalNumber": 0,
+        "GRIB_units": "K",
+        "long_name": "2 metre temperature",
+        "units": "K",
+        "standard_name": "unknown",
+        "GRIB_surface": 0.0
+      },
+      "data": [
+        [
+          [
+            307.19622802734375,
+            307.4169921875,
+            307.7464599609375
+          ],
+          [
+            307.4806213378906,
+            307.69830322265625,
+            308.07830810546875
+          ],
+          [
+            307.5799560546875,
+            307.7496032714844,
+            307.9794921875
+          ]
+        ]
+      ]
+    }
+  }
+}
