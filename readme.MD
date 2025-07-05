@@ -18,7 +18,7 @@ Ce guide vous explique comment télécharger des données météorologiques ERA5
 2. Remplissez le formulaire d'inscription
 3. Vérifiez votre email et activez votre compte
 
-### Étape 3 : Acceptation des licences
+### Étape 2 : Acceptation des licences
 1. Visitez : [https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download)
 2. Cliquez sur l'onglet **"Download data"**
 3. Descendez jusqu'au bas et chercher conditions d'utilisations / Terms of use (très important !)
@@ -48,7 +48,7 @@ nano ~/.cdsapirc
 **Sur Windows :**
 Créez un fichier `.cdsapirc` dans le répertoire du projet (`C:\Users\repertoire\.cdsapirc`)
 
-### Étape 2 : Récupération des identifiants API
+### Étape 3 : Récupération des identifiants API
 1. Connectez-vous à votre compte : [https://cds.climate.copernicus.eu/user/login](https://cds.climate.copernicus.eu/user/login)
 2. Allez dans votre profil utilisateur
 3. Cliquez sur User guide
